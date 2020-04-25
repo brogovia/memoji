@@ -10,7 +10,20 @@
     <div id="container">
       <h1>Memoji</h1>
       <div id="game">
-      </div> 
+      </div>
+      <h1 id="counter"></h1> 
+    </div>
+    <div class="modal none win">
+      <div class="modal-content">
+        <h1>Win</h1>
+        <button class="btn" onclick="resetGame()">Play again</button>
+      </div>
+    </div>
+    <div class="modal none lost">
+      <div class="modal-content">
+        <h1>Lost</h1>
+        <button class="btn" onclick="resetGame()">Try again</button>
+      </div>
     </div>
     <script src = "./script.js"></script>
     </script>
